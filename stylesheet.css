@@ -1,23 +1,39 @@
-h1 {
-    color: blue;
-    font-family: "Arial";
+#header {
+    background-color: white;
     text-align: center;
+    padding-top: 5px;
 }
 
-h2, h3 {
-    font-family: "Arial";
+body {
+    background-color:aliceblue;
+    font-family: sans-serif;
 }
 
-p {
-    font-family: monospace;
+#container {
+    background-color: white;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-footer {
+#content {
+    padding: 20px;
+}
+
+#nav {
+    width:  250px;
+    float: right;
+    padding-left: 10px;
+}
+
+#main {
+    width: 600px;
+    float: left;
+}
+
+#footer {
+    clear: both;
     text-align: center;
-}
-
-.welcome {
-    background-color: azure;
-    width: 500px;
-    text-align: center;
+    padding: 10px;
+    background-color: darkgrey
 }
